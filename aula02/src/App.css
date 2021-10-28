@@ -1,0 +1,101 @@
+*{
+  margin: 0px;
+}
+
+div{
+  display: flex;
+}
+
+fieldset{
+  display: block;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display:scroll;
+  position:fixed !important;
+  float: right;
+  display: inline;
+  bottom:90px;
+  right:30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  font-size: 40px;
+}
+
+#shounen, #seinen, #shoujo, #josei{
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1{
+  text-align: center;
+}
+
+.campo{
+  border: solid 3px black;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.campo h1{
+  font-size: 1.5rem;
+}
+
+.campo h2{
+  font-size: 1.2rem;
+}
+
+.campo h3{
+  font-size: 1rem;
+}
+
+
+.card{
+  width: 230px;
+  height: 340px;
+  background-color: #ffba7c;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  border: solid 10px #919974;
+  margin: 5px;
+}
+
+.pontBox{
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 119px;
+  height: 170px;
+  background-color: #919974;
+}
+
+.nomeBox{
+  width: 230px;
+  height: 80px;
+  background-color: #e49052;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagemBox{
+  flex-direction: column;
+  justify-content: center;
+  height: 170px;
+  background-color: #919974;
+}
+
+.metadeCard{
+  justify-content: flex-end;
+  height: 170px;
+}
+
+img{
+  width: 111px;
+  height: 166.8px;
+  object-fit: scale-down;
+}
