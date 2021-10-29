@@ -1,0 +1,9 @@
+[{"nome": "Asobi Asobase", "imagem": "asobi", "personagem": 8, "enredo": 6, "conclusao": 5, "abertura": 7, "genero": 8},
+    {"nome": "Demi-Chan Wa Kataritai", "imagem": "demichan", "personagem": 9, "enredo": 5, "conclusao": 7, "abertura": 7, "genero": 7},
+    {"nome": "Gokusen", "imagem": "gokusen", "personagem": 7, "enredo": 7, "conclusao": 8, "abertura": 8, "genero": 9},
+    {"nome": "Kaguya-sama wa Kokurasetai", "imagem": "kaguyasama", "personagem": 10, "enredo": 9, "conclusao": 3, "abertura": 10, "genero": 7},
+    {"nome": "Netojuu No Susume", "imagem": "netojuu", "personagem": 8, "enredo": 7, "conclusao": 9, "abertura": 7, "genero": 10},
+    {"nome": "Servant x Service", "imagem": "servant", "personagem": 6, "enredo": 7, "conclusao": 7, "abertura": 8, "genero": 8},
+    {"nome": "REC", "imagem": "rec", "personagem": 8, "enredo": 6, "conclusao": 8, "abertura": 6, "genero": 10},
+    {"nome": "No Guns Life", "imagem": "noguns", "personagem": 10, "enredo": 10, "conclusao": 7, "abertura": 10, "genero": 10},
+    {"nome": "Youjo Senki", "imagem": "youjo", "personagem": 10, "enredo": 10, "conclusao": 5, "abertura": 8, "genero": 8}]

@@ -1,0 +1,8 @@
+[{"nome": "No game no life", "imagem": "nogame", "personagem": 9, "enredo": 8, "conclusao": 4, "abertura": 10, "genero": 8},
+    {"nome": "WataMote", "imagem": "watamote", "personagem": 8, "enredo": 6, "conclusao": 6, "abertura": 10, "genero": 7},
+    {"nome": "Mob Psycho 100", "imagem": "mobpsycho", "personagem": 9, "enredo": 7, "conclusao": 4, "abertura": 10, "genero": 7},
+    {"nome": "Hataraku Maou-sama!", "imagem": "maousama", "personagem": 7, "enredo": 6, "conclusao": 6, "abertura": 8, "genero": 8},
+    {"nome": "Kyokou Suiri", "imagem": "kyokou", "personagem": 8, "enredo": 9, "conclusao": 8, "abertura": 7, "genero": 9},
+    {"nome": "Gamers!", "imagem": "gamers", "personagem": 6, "enredo": 7, "conclusao": 7, "abertura": 7, "genero": 8},
+    {"nome": "Ben-To", "imagem": "bento", "personagem": 9, "enredo": 6, "conclusao": 7, "abertura": 9, "genero": 9},
+    {"nome": "Aho Girl", "imagem": "ahogirl", "personagem": 9, "enredo": 6, "conclusao": 6, "abertura": 9, "genero": 10}]

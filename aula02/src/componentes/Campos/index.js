@@ -1,13 +1,7 @@
-import Card from '../Card'
-import './style.css'
-import batata from "../img/nogame.jpg"
+import Card from '../Card';
+import './style.css';
+import demografia from '../JSON';
 
-
-const anime = {
-    nome: "shou",
-    demografia: "shoujo",
-    url: batata
-  }
 
 const Campo = ({ tipo }) => {
     const campo = (i) => {
@@ -20,7 +14,7 @@ const Campo = ({ tipo }) => {
         <fieldset className="campo">
                 <legend>{campo(1)}</legend>
                 <div id={campo(0)}>
-                    <Card cartao={anime} />
+                    <Card cartao={demografia(tipo)} />
                 </div>
             </fieldset>
     )
