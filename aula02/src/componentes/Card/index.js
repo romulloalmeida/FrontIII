@@ -5,8 +5,8 @@ const Card = ({ cartao }) => {
 
     return (
         <>
-            {cartao.map((card, index) => (
-                <div className="card" key={index}>
+            {cartao.map((card) => (
+                <div className="card" key={card.index}>
                     <div className="nomeBox">
                         <h1>{card.nome}</h1>
                     </div>

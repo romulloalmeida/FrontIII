@@ -1,2 +1,2 @@
-[{"nome": "3D Kanojo", "imagem": "3dkanojo", "personagem": 10, "enredo": 8, "conclusao": 9, "abertura": 8, "genero": 9},
-    {"nome": "Itazura na Kiss", "imagem": "itazura", "personagem": 7, "enredo": 7, "conclusao": 9, "abertura": 9, "genero": 8}]
+[{"index":"01", "nome": "3D Kanojo", "imagem": "3dkanojo", "personagem": 10, "enredo": 8, "conclusao": 9, "abertura": 8, "genero": 9},
+    {"index":"02", "nome": "Itazura na Kiss", "imagem": "itazura", "personagem": 7, "enredo": 7, "conclusao": 9, "abertura": 9, "genero": 8}]
