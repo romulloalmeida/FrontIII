@@ -10,9 +10,12 @@ const Campo = ({ tipo }) => {
         }
         return tipo.toLowerCase();
     }
+    const id = (t) =>{
+        return "id" + t;
+    } 
     return (
-        <fieldset className="campo">
-                <legend>{campo(1)}</legend>
+        <fieldset className="campo" id={id(campo(0))}>
+                <h1>{campo(1)}</h1>
                 <div id={campo(0)}>
                     <Card cartao={demografia(tipo)} />
                 </div>
