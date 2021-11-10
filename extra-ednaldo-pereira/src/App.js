@@ -1,15 +1,30 @@
+import {Component} from 'react';
 import Header from "./Header";
 import Banner from "./Banner";
 import Footer from "./Footer"
 import Galeria from "./Galeria";
 
-import './App.css';
-function App() {
+import './App.scss';
+export default class App extends Component {
 
-  const nomeEmpresa = 'Ednaldo Pereira';
+  constructor(){
+    super();
+    this.state = {
+      temaEscuro: true
+    }
+  }
+
+  nomeEmpresa = 'Ednaldo Pereira';
+
+  alternaTema = () => {
+    this.setState()
+  }
+
+  render(){
   return (
     <div>
-      <Header empresa={nomeEmpresa} />
+      <Header empresa={this.nomeEmpresa} temaEscuro={this.state.temaEscuro} />
+      <img src="https://cdn-icons-png.flaticon.com/512/702/702814.png" alt="Alterna Cor" onClick={this.alternaTema} />
       <main>
         <Banner>
           <h2>O que é Ednaldo Pereira</h2>
@@ -27,9 +42,8 @@ function App() {
         </Banner>
         <Galeria />
       </main>
-      <Footer empresa={nomeEmpresa} />
+      <Footer empresa={this.nomeEmpresa} />
     </div>
   );
-}
+}}
 
-export default App;
