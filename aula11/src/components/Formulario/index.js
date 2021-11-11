@@ -19,9 +19,7 @@ export default class Formulario extends Component{
                 html: `Seu nome é: ${nome}, seu telefone é: ${telefone} e seu email é ${email}`
             });
         }
-
     }
-
 
     render(){
         return(
