@@ -3,6 +3,7 @@ import Header from "./Header";
 import Banner from "./Banner";
 import Footer from "./Footer"
 import Galeria from "./Galeria";
+import Contato from "./Contato"
 
 import './App.scss';
 export default class App extends Component {
@@ -41,6 +42,7 @@ export default class App extends Component {
           </ul>
         </Banner>
         <Galeria />
+        <Contato />
       </main>
       <Footer empresa={this.nomeEmpresa} />
     </div>
