@@ -28,7 +28,6 @@ function Projetos() {
                     <a href={card.link} target="_blank" rel="noopener noreferrer"><Card titulo ={card.titulo} paragrafo = {card.p} /></a>
                 ))
             }
-            {/* <a href="https://vinnymendes.github.io/EstacaoCafe/" target="_blank" rel="noopener noreferrer"><Card titulo ="Café" paragrafo = {pCafe} /></a> */}
         </div>
         </>
     )
